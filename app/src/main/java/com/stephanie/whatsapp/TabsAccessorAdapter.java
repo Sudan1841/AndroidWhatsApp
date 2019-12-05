@@ -43,10 +43,10 @@ public class TabsAccessorAdapter extends FragmentPagerAdapter{
                 return "Groups";
 
             case 2:
-                return "Contacts";
+                return "Data Friends";
 
             case 3:
-                return "Requests";
+                return "Join Requests";
 
             default:
                 return null;

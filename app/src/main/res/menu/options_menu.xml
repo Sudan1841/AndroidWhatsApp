@@ -11,7 +11,7 @@
     </item>
 
     <item
-        android:title="Create Group"
+        android:title="Create New Group"
         android:id="@+id/main_create_group_option"
         app:showAsAction="never"
         >
@@ -19,7 +19,7 @@
     </item>
 
     <item
-        android:title="Beta Chat"
+        android:title="Message"
         android:id="@+id/main_chat_option"
         app:showAsAction="never"
         >

@@ -20,15 +20,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
         android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
         android:layout_toEndOf="@+id/message_profile_image"
-        android:background="@drawable/receiver_messages_layout"
-        android:text="receiver messages here"
+        android:background="@color/colorPrimaryDark"
         android:padding="10dp"
+        android:text="receiver messages here"
+        android:textColor="@android:color/white"
+        android:textColorHint="#00F0EAEA"
         android:textSize="14sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:layout_marginRight="20dp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/sender_message_text"
